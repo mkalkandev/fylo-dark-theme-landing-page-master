@@ -19,7 +19,7 @@ Contents
 
 # Project URL
 
-The project is published at: [Four-cards Feature section homepage](https://mkalkandev.github.io/fylo-dark-theme-landing-page-master/)
+The project is published at: [Fylo-dark-theme-landing-page-master](https://mkalkandev.github.io/fylo-dark-theme-landing-page-master/)
 
 # Features
 
