@@ -44,7 +44,7 @@ header nav{
 }
 
 #hero h1{
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 1.5;
 }
 .description{
@@ -53,11 +53,11 @@ header nav{
 .btn-primary{
     color: var(--white);
     background-image: linear-gradient(to right top, var(--Cyan), var(--Blue));
-    padding: 0.8rem 4rem;
+    padding: 1.2rem 5rem;
     border-radius: 999px;
     border: none;
     cursor: pointer;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
 }
 /* Features */
 
@@ -107,11 +107,11 @@ header nav{
 /* Cards */
 #cards{
     display: grid;
-    grid-template-columns: repeat(auto-fit , minmax(300px,
+    grid-template-columns: repeat(auto-fit , minmax(500px,
     1fr));
     gap: 2rem;
     margin: 10rem auto;
-    width: 75%;
+    width: 80%;
     position: relative;
 }
 #cards::before{
@@ -283,6 +283,7 @@ header nav{
     }
     #cards{
         width: 100%;
+        grid-template-columns: 1fr;
     }
     #call-to-action {
         width: 90%;
