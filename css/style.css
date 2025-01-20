@@ -41,7 +41,7 @@ header nav{
     align-items: center;
     text-align: center;
     gap: 2rem;
-    margin-top:10rem
+    margin-top: 5rem;
 }
 
 #hero h1{
@@ -59,6 +59,21 @@ header nav{
     border: none;
     cursor: pointer;
     font-size: 1.2rem;
+    transition: all 0.3s ease;
+    
+}
+.btn-primary:hover{
+    outline: 1px solid var(--Cyan); 
+    background: transparent;
+    color: var(--Cyan);
+    
+}
+a{
+    color: var(--white);
+    transition: all 0.3s ease;
+}
+a:hover{
+    color: var(--Cyan);
 }
 /* Features */
 
@@ -72,10 +87,8 @@ header nav{
 }
 
 .features-card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    display: grid;
+    place-items: center;
     gap: 1rem;
 }.features-card p{
     width: 45ch;
@@ -189,8 +202,9 @@ header nav{
 #call-to-action input{
     width: 100%;
     height: 100%;
-    text-indent: 1rem;
+    text-indent: 1.5rem;
     border: none;
+    outline: none;
 }
 #call-to-action input::placeholder{
     opacity: 0.75;
