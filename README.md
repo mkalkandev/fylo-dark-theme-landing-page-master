@@ -41,7 +41,7 @@ This project contains the following files and folders:
 # Screenshot
 
 ![Project Image](./desktop-design.jpg)
-![Project Image](./mobile--design.jpg)
+![Project Image](./mobile-design.jpg)
 
 # Challenge
 
